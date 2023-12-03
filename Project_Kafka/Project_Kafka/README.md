@@ -25,8 +25,8 @@ This project demonstrates a data storing and processing pipeline using Apache Ka
 
 1. Install required Python libraries:
     pip install kafka-python websocket-client
-2. Run the create_topic.sh:
-    /.create_topic.sh
+2. Run the kafka_setup.sh:
+    /.kafka_setup.sh
 3. Open two separate terminal windows.
 4. In the first terminal, run the Kafka producer:
     python producer.py
