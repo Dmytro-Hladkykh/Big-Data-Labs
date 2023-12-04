@@ -25,13 +25,15 @@ This project demonstrates the use of Apache Hive for big data processing. It inv
    This will start Hadoop services, Hive Server, and the PostgreSQL-backed Hive Metastore.
    If it cant compose, copy the project into another folder, clean and restart Docker.
 
-3. Execute the submit.sh script to set up HDFS and run Hive queries:
+3. Edit submit.sh with your path to a project folder
+
+4. Execute the submit.sh script to set up HDFS and run Hive queries:
 
    ```bash
    ./submit.sh
    ```
 
-4. Explore the results.
+5. Explore the results.
 
 ## Hive Queries
 
