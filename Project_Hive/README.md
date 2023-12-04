@@ -12,18 +12,11 @@ This project demonstrates the use of Apache Hive for big data processing. It inv
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/hive-big-data-project.git
-   cd hive-big-data-project
+   git clone <link>
+   cd project-hive-main
    ```
 
-2. Create the necessary directories for HDFS data:
-
-   ```bash
-   mkdir -p ./hdfs/namenode
-   mkdir -p ./hdfs/datanode
-   ```
-
-3. Build and start the Docker containers:
+2. Build and start the Docker containers:
 
    ```bash
    docker-compose up -d
@@ -31,13 +24,13 @@ This project demonstrates the use of Apache Hive for big data processing. It inv
 
    This will start Hadoop services, Hive Server, and the PostgreSQL-backed Hive Metastore.
 
-4. Execute the submit.sh script to set up HDFS and run Hive queries:
+3. Execute the submit.sh script to set up HDFS and run Hive queries:
 
    ```bash
    ./submit.sh
    ```
 
-5. Explore the results by connecting to the Hive Server or viewing HDFS data.
+4. Explore the results.
 
 ## Hive Queries
 
