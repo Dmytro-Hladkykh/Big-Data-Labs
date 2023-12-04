@@ -1,4 +1,10 @@
-PROJECT_FOLDER=/mnt/d/pppp
+#!/bin/bash
+
+# Get the current working directory
+PROJECT_FOLDER="$(pwd)"
+
+# Debugging: Print the current working directory
+echo "Current working directory: $PROJECT_FOLDER"
 
 # Execute the Hive table creation script
 docker exec -t hive-server /bin/bash -c 'hive -f $PROJECT_FOLDER/data/flights_table.hql'
